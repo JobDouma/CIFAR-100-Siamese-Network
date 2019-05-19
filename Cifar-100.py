@@ -53,7 +53,7 @@ _pickle_kwargs = {'encoding': 'latin1'}
 
 batch_size = 32
 num_classes = 100
-epochs = 5
+epochs = 100
 data_augmentation = True
 num_predictions = 20
 save_dir = os.path.join(os.getcwd(), 'saved_models')
